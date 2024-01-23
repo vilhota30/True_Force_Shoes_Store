@@ -1,16 +1,16 @@
+import {Route, Routes} from 'react-router-dom';
+import Header from "pages/PageHeader/PageHeader";
+// import PageSiteNavigation from 'pages/PageSiteNav/PageSiteNav';
+
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+        <Routes>
+            <Route path="/" element={<Header />}>
+            {/* <Route path="navigation" element={<PageSiteNavigation />} /> */}
+            </Route>
+        </Routes>
     </div>
   );
 };
