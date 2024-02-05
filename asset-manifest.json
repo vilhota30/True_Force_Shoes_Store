@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/True_Force_Shoes_Store/static/css/main.2741d4bb.css",
-    "main.js": "/True_Force_Shoes_Store/static/js/main.f61288bc.js",
+    "main.js": "/True_Force_Shoes_Store/static/js/main.fc06cdd0.js",
     "index.html": "/True_Force_Shoes_Store/index.html",
     "main.2741d4bb.css.map": "/True_Force_Shoes_Store/static/css/main.2741d4bb.css.map",
-    "main.f61288bc.js.map": "/True_Force_Shoes_Store/static/js/main.f61288bc.js.map"
+    "main.fc06cdd0.js.map": "/True_Force_Shoes_Store/static/js/main.fc06cdd0.js.map"
   },
   "entrypoints": [
     "static/css/main.2741d4bb.css",
-    "static/js/main.f61288bc.js"
+    "static/js/main.fc06cdd0.js"
   ]
 }
