@@ -1,11 +1,11 @@
- import { BtnLink } from "./ShoeModelButton.styled";
-
-function CatalogBtn (btnModelTypes) {
+ import { Link } from "./ShoeModelButton.styled";
+ 
+function CatalogBtn () {
     return(
         <>
-          <BtnLink>Жіноче взуття</BtnLink>
-          <BtnLink>Чоловіче взуття</BtnLink>
-          <BtnLink>Підліткове взуття</BtnLink>
+            <Link to="/women_shoes">Для Жінок</Link>
+            <Link to="/men's_shoes">Для Чоловіків</Link>
+            <Link to="/teenage_shoes">Для Підлітків</Link>
         </>
     )
 }
