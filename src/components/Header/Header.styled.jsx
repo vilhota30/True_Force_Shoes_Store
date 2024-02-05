@@ -13,10 +13,29 @@ position: relative;
 background-color: #adadc8;
 border-radius: 20px;
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
 width: 400px;
+left: -560px;
+transform: ${({open}) => open ? 'translateX(0)' : 'translateX(560px)'};
+transition: all 0.5s ease-out;
 }
+}
+`;
 
+export const HeaderBtnIcon = styled.button`
+padding: 5px;
+width: 32px;
+height: 32px;
+color: white;
+background-color: darkblue;
+display: none;
+
+@media screen and (max-width: 900px) {
+display: flex;
+align-items: center;
+margin-left: auto;
+
+};
 `;
 
 export const Nav = styled.nav`
